@@ -18,5 +18,5 @@ export function fizzBuzz(value: number): string {
 // ### LEVEL 3: Length of vector ###
 export function getLengthOfVector(vec: [number, number]): number {
   // TODO: Return the length of the vector
-  return Math.sqrt(vec[0]^2 + vec[1]^2);
+  return Math.sqrt(vec[0] * vec[0] + vec[1] * vec[1]);
 }
